@@ -48,6 +48,7 @@ a {
 #compDis{
     color: black;
     text-align: justify;
+    padding: 40px;
 }
 
 #myName {
@@ -121,7 +122,7 @@ footer {
 
 .mainBody {
     height: 100%;
-    min-height: 1500px; /* real browsers */
+    min-height: 100%; /* real browsers */
 }
 
 h2.col {
@@ -135,7 +136,43 @@ h2.col {
     margin-bottom: 1%;
 }
 
-@media only screen and (max-width:1500px) {
+@media only screen and (max-height:2000px) {
+
+    .mainBody {
+   
+        min-height: 1900px; /* real browsers */
+    }
+
+}
+
+@media only screen and (max-height:1400px) {
+
+    .mainBody {
+   
+        min-height: 1300px; /* real browsers */
+    }
+
+}
+
+@media only screen and (max-height:1008px) {
+
+    .mainBody {
+   
+        min-height: 908px; /* real browsers */
+    }
+
+}
+
+@media only screen and (max-height:700px) {
+
+    .mainBody {
+   
+        min-height: 600px; /* real browsers */
+    }
+
+}
+
+@media only screen and (max-height:500px) {
 
     .mainBody {
    
@@ -144,12 +181,11 @@ h2.col {
 
 }
 
-
-@media only screen and (max-width:1008px) {
+@media only screen and (max-height:300px) {
 
     .mainBody {
    
-        min-height: 500px; /* real browsers */
+        min-height: 200px; /* real browsers */
     }
 
 }
@@ -189,11 +225,7 @@ h2.col {
 
   @media only screen and (max-width: 350px) {
 
-    .mainBody {
-   
-        min-height: 300px; /* real browsers */
-    }
-
+    
     #portC {
         height: 450px;
     }
