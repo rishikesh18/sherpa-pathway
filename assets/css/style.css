@@ -120,24 +120,36 @@ footer {
 
 
 .mainBody {
-   
-    min-height: 2000px; /* real browsers */
+    height: 100%;
+    min-height: 1500px; /* real browsers */
+}
+
+h2.col {
+    padding: 0;
+    width: auto;
+}
+
+.row {
+    
+    margin: 0;
+    margin-bottom: 1%;
 }
 
 @media only screen and (max-width:1500px) {
 
     .mainBody {
    
-        min-height: 300px; /* real browsers */
+        min-height: 400px; /* real browsers */
     }
 
 }
+
 
 @media only screen and (max-width:1008px) {
 
     .mainBody {
    
-        min-height: 200px; /* real browsers */
+        min-height: 500px; /* real browsers */
     }
 
 }
@@ -179,7 +191,7 @@ footer {
 
     .mainBody {
    
-        min-height: 100%; /* real browsers */
+        min-height: 300px; /* real browsers */
     }
 
     #portC {
